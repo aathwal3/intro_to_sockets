@@ -1,6 +1,6 @@
 # Intro to Socket.io
 
-This project demonstrated a basic knowledge of using node.js, express.js and socket.io. These three technologies are combined to create a basic chartroom that functions in real time with usernames and supports multiple browsers. 
+This project demonstrated a basic knowledge of using node.js, express.js and socket.io. These three technologies are combined to create a basic chartroom that functions in real time with usernames and supports multiple browsers. To contribute to this project just clone the repo, work on your own branch, and push your edits for me to review and merge. To clone the repo and get it working in development simply clone the link and run $node index.js and watch it live on http://localhost:8081. 
 
 <h1> Node.js </h1>
 Node.js is a very powerful JavaScript backend library that provides a wrapper around V8 JavaScript runtime in chrome. It is not an actual web framework. Node is completely non-blocking, which means its able to run different functions in parallel for example, you could upload a file and show the progress of the file upload at the same time- meaning a call from the browser to the server is happening at the same time as a call from the server to the browser. Stream between the client side and the server side allow for this to happen. When we want to read and write on a stream we are able to condense all of our code into a pipe (a single line of code, awesome!)
